@@ -79,7 +79,7 @@ To change branches: git checkout "feature-1" ---------------> the asterisc will 
 To delete a branch: 
 
 	git checkout master
-	git branch -d feature-1 --------> work if we merged the branch to the master, other ways it's gonna worn us first, if we want to 						  delete it directly use "-D" instead of "-d"
+	git branch -d feature-1 --------> work if we merged the branch to the master, other ways it's gonna worn us first, if we want to delete it directly use "-D" instead of "-d"
    
 Working on two branches:
 
