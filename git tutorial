@@ -91,7 +91,7 @@ Merges and conflic:
 ------------------
 
 We need to be in the branch we're gonna merge into; git checkout master ---> git merge feature-a.
-Doind "git log" in master after merge ---> 45tfg Merge branch 'feature-a'
+Doing "git log" in master after merge ---> 45tfg Merge branch 'feature-a'
 	    		                   t54fg added <message of last commit in branch feature-a>
 
 Every operations on branches we do are done between saved points(commits), there could be conflics when for example do a commit in the master branch while working on another branches(feature-a for example), we're gonna find out when trying to merge, we just solved the conflics in the editor and commit(on the master), this time we dont need a message so ----> git commit--->:wq and that's it.
